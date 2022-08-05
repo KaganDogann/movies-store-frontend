@@ -1,0 +1,50 @@
+.button-group-container {
+    width: fit-content;
+  }
+  
+  .buttons-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .nominee-card-button {
+    font-size: 0.8em;
+  }
+  
+  .delete-button {
+    @extend .nominee-card-button;
+    align-self: flex-start;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .score-container {
+    background: aqua;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0px 10px;
+  }
+  
+  .point-container {
+    font-size: 1.6em;
+    text-align: center;
+  }
+  
+  .points-text-container {
+    font-size: 0.8em;
+    margin-top: -10px;
+  }
+  
+  .nominee-card-container {
+    max-width: 380px;
+  
+    &:hover {
+      .delete-button {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.6s 0s ease-out;
+      }
+    }
+  }
+  

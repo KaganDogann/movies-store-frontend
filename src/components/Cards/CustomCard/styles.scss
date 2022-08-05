@@ -1,0 +1,31 @@
+.card-text-container {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .card-title-container {
+    @extend .card-text-container;
+    font-weight: bold;
+  }
+  
+  .card-image-container {
+    height: 200px;
+    object-fit: cover;
+  
+    @media screen and (max-width: 950px) {
+      height: 150px;
+    }
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .card-container {
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+      transition: box-shadow 0.6s 0s ease-out;
+    }
+  }
+  
