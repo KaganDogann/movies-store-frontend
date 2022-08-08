@@ -32,7 +32,7 @@
   .cards-wrapper {
     display: grid;
     align-self: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
   
     @media only screen and (max-width: 1400px) {
