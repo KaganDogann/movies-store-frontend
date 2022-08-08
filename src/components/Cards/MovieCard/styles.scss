@@ -37,7 +37,9 @@
   }
   
   .nominee-card-container {
+    margin: 3px;
     max-width: 380px;
+    max-height: 432px;
   
     &:hover {
       .delete-button {

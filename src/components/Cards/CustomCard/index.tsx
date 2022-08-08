@@ -14,11 +14,14 @@ export const CustomCard: React.FC<CustomCardProps> = ({
 }) => {
 
     const [isImageValid, setIsImageValid] = useState(true);
+    const [visiableDescription, setVisiableDescription] = useState<Boolean>(false)
 
     const customCardTheme = restProps.className ? restProps.className : ""
   return (
     <Card
     {...restProps} className={`card-container ${customCardTheme}`}
+    onMouseOver={() => setVisiableDescription(true)}
+    onMouseOut={() => setVisiableDescription(false)}
     >
         <Card.Img
         variant="top"
@@ -30,7 +33,10 @@ export const CustomCard: React.FC<CustomCardProps> = ({
         {!!title && (
           <Card.Title className="card-title-container">{title}</Card.Title>
         )}
-        <Card.Text className="card-text-container">{content}</Card.Text>
+        {!!visiableDescription && (
+          <Card.Text className="card-text-container card-text-description">{content}</Card.Text>
+        )}
+        
         {buttons}
       </Card.Body>
       {children}
