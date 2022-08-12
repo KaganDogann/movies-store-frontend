@@ -1,0 +1,90 @@
+.nav-link {
+    font-size: 0.95rem;
+  }
+  
+  #basic-nav-dropdown {
+    font-size: 0.95rem;
+   
+  }
+  
+  #seeMoreLink {
+    color: #607d8b;
+  }
+  
+  #seeMoreLink:hover {
+    color: black;
+    font-weight: 400;
+  }
+  .dropdown-menu {
+    background-color: #607d8b;
+    padding:10px;
+    margin: 5px;
+  }
+  
+  .dropdown-item:hover {
+    outline: none;
+    box-shadow: none;
+    background: none;
+  }
+  .dropdown-item a:hover {
+    color: black;
+  }
+  
+  .dropdown-item {
+    height: 2em;
+    padding-left: 0em;
+  }
+  
+  .dropdown-header {
+    font-weight: 600;
+    padding-left: 0em;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .eventsNav {
+      width: 25em;
+      padding-bottom: 0em;
+    }
+  }
+
+  .mega-menu-items {
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+  }
+
+   .test::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+   .test:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+   .test::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: beige;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+   .test {
+    position: relative;
+    color: white;
+  }
+
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+}
+
+
+

@@ -2,48 +2,50 @@ import { useState } from "react";
 import { Card } from "react-bootstrap";
 import { CustomCardProps } from "./types";
 import imageHolder from "../../../assets/images/image-holder.jpg";
-import "./styles.scss"
+import "./styles.scss";
 
 export const CustomCard: React.FC<CustomCardProps> = ({
-    title,
-    image,
-    content,
-    buttons,
-    children,
-    ...restProps
+  title,
+  image,
+  content,
+  buttons,
+  children,
+  ...restProps
 }) => {
+  const [isImageValid, setIsImageValid] = useState(true);
+  const [visiableDescription, setVisiableDescription] =
+    useState<Boolean>(false);
 
-    const [isImageValid, setIsImageValid] = useState(true);
-    const [visiableDescription, setVisiableDescription] = useState<Boolean>(false)
+  const customCardTheme = restProps.className ? restProps.className : "";
 
-    const customCardTheme = restProps.className ? restProps.className : ""
+  const imageAdress = "https://localhost:5001/Uploads/Images/";
   return (
     <Card
-    {...restProps} className={`card-container ${customCardTheme}`}
-    onMouseOver={() => setVisiableDescription(true)}
-    onMouseOut={() => setVisiableDescription(false)}
+      {...restProps}
+      className={`card-container ${customCardTheme}`}
+      onMouseOver={() => setVisiableDescription(true)}
+      onMouseOut={() => setVisiableDescription(false)}
     >
-        <Card.Img
+      <Card.Img
         variant="top"
         className="card-image-container"
-        src={isImageValid ? image : imageHolder}
+        src={isImageValid ? imageAdress + image : imageHolder}
         onError={() => setIsImageValid(false)}
-        />
-        <Card.Body className="card-body-container">
+      />
+      <Card.Body className="card-body-container">
         {!!title && (
           <Card.Title className="card-title-container">{title}</Card.Title>
         )}
-        {!!visiableDescription && (
+        {/* {!!visiableDescription && (
           <Card.Text className="card-text-container card-text-description">{content}</Card.Text>
-        )}
-        
+        )} */}
+
         {buttons}
       </Card.Body>
       {children}
-        
     </Card>
-  )
+  );
 };
 CustomCard.defaultProps = {
-    image: imageHolder,
-  };
+  image: imageHolder,
+};
