@@ -1,0 +1,70 @@
+.movie-container {
+  padding: 30px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: beige;
+  border-radius: 5px;
+}
+
+.movie-image {
+  height: 420px;
+  width: 260px;
+}
+
+.movie-title {
+  color: white;
+}
+
+.movie-text {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.movie-imdb-rate {
+  color:yellow;
+  margin-top: 9px;
+ margin-left: 8px;
+}
+
+.imdb-icon {
+  color:yellow;
+  margin-left: 15px;
+}
+
+.movie-fields {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    padding: 0 12px;
+    margin-right: 0.5rem;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3b4348;
+    border-radius: 16px;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    word-wrap: break-word;
+    text-transform: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    margin-top: 12px;
+
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+      transition: box-shadow 0.6s 0s ease-out;
+      color: red;
+      cursor: pointer;
+    }
+    
+}
+
+.movie-fields-container {
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}

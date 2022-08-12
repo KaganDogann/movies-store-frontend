@@ -1,0 +1,36 @@
+.form-input {
+    
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    background: transparent;
+    color: white
+    
+}
+
+.form-container-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+    background-image: url("https://cdn-az.allevents.in/events6/banners/67235709dc6669c76167efba66bfb20c1c9db589fca2bc10ced9365b88cbf563-rimg-w960-h480-gmir.jpg?v=1657545051");
+    border-radius: 50px;
+}
+
+.form-input-container {
+    align-items:center;
+     display:flex;
+     flex-direction:row;
+}
+
+.form-label-test {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.form-label-margin {
+    margin-right: 16px;
+}
+

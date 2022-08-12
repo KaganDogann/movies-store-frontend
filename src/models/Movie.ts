@@ -4,6 +4,9 @@ export interface MovieCreateModal {
     releaseDate?: Date;
     iMDbRaiting?: number;
     price?:number;
+    totalTime?:number;
+    uploadDate?:Date;
+    videoLink?:string;
 }
 
 export interface MovieModel extends MovieCreateModal {
