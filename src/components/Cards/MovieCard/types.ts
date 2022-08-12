@@ -1,6 +1,6 @@
 export interface MovieCardProps {
     movieName: string;
-    imageSource?: string;
+    imagePath?: string;
     description?: string;
     releaseDate?: Date;
     iMDbRaiting?: number;

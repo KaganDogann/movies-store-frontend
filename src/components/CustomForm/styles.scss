@@ -1,0 +1,19 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 20px;
+    width: min(600px, 100%);
+  }
+  
+  .form-title {
+    text-align: center;
+  }
+  
+  .submit-button {
+    align-self: flex-end;
+    font-weight: 600;
+    width: min(160px, 35vw);
+    height: min(50px, 6vh);
+  }
+  

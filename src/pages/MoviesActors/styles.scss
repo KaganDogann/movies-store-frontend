@@ -1,0 +1,14 @@
+.cards-wrapper-test {
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  
+    @media only screen and (max-width: 1400px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    @media only screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+    }
+}  
