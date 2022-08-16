@@ -42,7 +42,7 @@
   
   @media only screen and (min-width: 600px) {
     .eventsNav {
-      width: 25em;
+      width: 24em;
       padding-bottom: 0em;
     }
   }
@@ -50,7 +50,7 @@
   .mega-menu-items {
     display: grid;
     align-self: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
   }
 

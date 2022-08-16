@@ -81,17 +81,7 @@ export const Movies: React.FC = () => {
         ))}
       </Slider>
 
-      <h3 className="slider-title">Aksyion Filmleri</h3>
-      <Slider  {...settings}>
-        {actionMovies.map((movie) => (
-          <div>
-            <MovieCard 
-            {...movie}>
-
-            </MovieCard>
-          </div>
-        ))}
-      </Slider>
+      
     </div>
   );
 };
