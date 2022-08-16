@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# MovieStore 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu Proje React -Type Script ile inşa edildi.
 
-## Available Scripts
+## Kullanılan paketler ve teknolojiler
 
-In the project directory, you can run:
+<h6> bootstrap </h6>
+<h6> bootstrap-icons </h6>
+<h6> formik </h6>
+
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Proje Kağan Doğan ve Arif Alan tarafından tekrar ve öğrenme amaçlı olarak yapıldı, yönetilebilir bir sistem oluşturulmaya çalışıldı. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<li> Main Page </li>
+<img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/KDAFlix%20-%20Opera%202022-08-16%2015-22-42%20(2).gif">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<li> Movies Pages </li>
+<img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/KDAFlix%20-%20Opera%202022-08-16%2015-23-13.gif">
 
-### `npm run build`
+<li> Categories </li>
+<img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/KDAFlix%20-%20Opera%202022-08-16%2015-24-06.gif">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
