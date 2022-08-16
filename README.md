@@ -4,9 +4,9 @@ Bu Proje React -Type Script ile inşa edildi.
 
 ## Kullanılan paketler ve teknolojiler
 
-bootstrap 
-bootstrap-icons 
-formik 
+<li> bootstrap </li>
+<li> bootstrap-icons </li>
+<li> formik </li>
 
 
 Proje Kağan Doğan ve Arif Alan tarafından tekrar ve öğrenme amaçlı olarak yapıldı, yönetilebilir bir sistem oluşturulmaya çalışıldı. 
