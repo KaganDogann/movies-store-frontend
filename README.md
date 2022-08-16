@@ -25,3 +25,5 @@ Proje Kağan Doğan ve Arif Alan tarafından tekrar ve öğrenme amaçlı olarak
 <img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/2.jpg">
 <img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/3.jpg">
 <img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/4.jpg">
+<img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/5.jpg">
+<img src="https://github.com/KaganDogann/movies-store-frontend/blob/master/src/assets/images/6.jpg">
