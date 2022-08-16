@@ -25,7 +25,7 @@ export default class MovieAPIService {
  }
 
  getActionMoviesDetails(): Promise<{ data: MovieDetailModal[] }> {
-   
+   console.log(axios.get("https://localhost:5001/api/Movies/getactionmoviesdetails"))
    return axios.get("https://localhost:5001/api/Movies/getactionmoviesdetails");
  }
 
